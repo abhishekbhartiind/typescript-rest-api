@@ -4,7 +4,8 @@
   "description": "TypeScript, MongoDB, Express API",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
